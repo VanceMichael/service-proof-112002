@@ -1,0 +1,52 @@
+[
+  {
+    "record": "electronic-1",
+    "availableFrom": 1,
+    "kind": "opened",
+    "payload": {
+      "case": "M2",
+      "notice": "P11",
+      "edition": 2,
+      "party": "P-B",
+      "scope": "封面"
+    }
+  },
+  {
+    "record": "electronic-2",
+    "availableFrom": 2,
+    "kind": "confirmed",
+    "payload": {
+      "case": "M2",
+      "notice": "P11",
+      "edition": 2,
+      "party": "P-A",
+      "agent": "R-Q",
+      "scope": "本人逐件确认",
+      "time": "2026-11-21T00:10:00+09:00"
+    }
+  },
+  {
+    "record": "electronic-3",
+    "availableFrom": 3,
+    "kind": "deadline",
+    "payload": {
+      "party": "P-A",
+      "notice": "P11",
+      "edition": 2,
+      "issued": "2026-11-21",
+      "due": "2026-11-30"
+    }
+  },
+  {
+    "record": "electronic-4",
+    "availableFrom": 4,
+    "kind": "manifest",
+    "payload": {
+      "bag": "B6",
+      "party": "P-A",
+      "notice": "P11",
+      "edition": 2,
+      "agent": "R-H"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "sources": [
+    "clerk",
+    "delivery",
+    "electronic"
+  ],
+  "stages": 4,
+  "originals": [],
+  "originalStages": {},
+  "digests": {}
+}

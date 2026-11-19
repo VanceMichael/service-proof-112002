@@ -1,0 +1,53 @@
+[
+  {
+    "record": "delivery-1",
+    "availableFrom": 1,
+    "kind": "posted",
+    "payload": {
+      "bag": "B6",
+      "docs": [
+        [
+          "M2",
+          "P11",
+          2,
+          "P-A"
+        ],
+        [
+          "M2",
+          "P11",
+          2,
+          "P-B"
+        ]
+      ],
+      "point": "联络处"
+    }
+  },
+  {
+    "record": "delivery-2",
+    "availableFrom": 2,
+    "kind": "posted",
+    "payload": {
+      "bag": "B7",
+      "docs": [
+        [
+          "M2",
+          "P11",
+          2,
+          "P-A"
+        ]
+      ],
+      "point": "代理站"
+    }
+  },
+  {
+    "record": "delivery-3",
+    "availableFrom": 4,
+    "kind": "signed",
+    "payload": {
+      "bag": "B6",
+      "agent": "R-H",
+      "point": "联络处",
+      "occurred": "2026-11-19T23:55:00+08:00"
+    }
+  }
+]

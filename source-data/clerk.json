@@ -1,0 +1,82 @@
+[
+  {
+    "record": "clerk-1",
+    "availableFrom": 1,
+    "kind": "notice",
+    "payload": {
+      "case": "M2",
+      "notice": "P11",
+      "edition": 2,
+      "parties": [
+        "P-A",
+        "P-B"
+      ],
+      "region": "北岸"
+    }
+  },
+  {
+    "record": "clerk-2",
+    "availableFrom": 1,
+    "kind": "address",
+    "payload": {
+      "party": "P-A",
+      "agent": "R-H",
+      "point": "联络处",
+      "zone": "+08:00",
+      "valid": [
+        "2026-11-01",
+        "2026-11-20"
+      ]
+    }
+  },
+  {
+    "record": "clerk-3",
+    "availableFrom": 1,
+    "kind": "address",
+    "payload": {
+      "party": "P-A",
+      "agent": "R-Q",
+      "point": "代理站",
+      "zone": "+09:00",
+      "valid": [
+        "2026-11-20",
+        "2026-12-12"
+      ]
+    }
+  },
+  {
+    "record": "clerk-4",
+    "availableFrom": 1,
+    "kind": "address",
+    "payload": {
+      "party": "P-B",
+      "agent": "R-Y",
+      "point": "联络处",
+      "zone": "+08:00",
+      "valid": [
+        "2026-11-01",
+        "2026-12-12"
+      ]
+    }
+  },
+  {
+    "record": "clerk-5",
+    "availableFrom": 1,
+    "kind": "rule",
+    "payload": {
+      "region": "北岸",
+      "workDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "holiday": [
+        "2026-11-23"
+      ],
+      "mode": "逐文书",
+      "combine": "门房签收需有同一主体的清单回读；本人确认可独立成立"
+    }
+  }
+]
