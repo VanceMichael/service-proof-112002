@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node source-server.mjs",
-    "test": "node --test *.test.mjs"
+    "test": "node --test *.test.mjs",
+    "workbench": "node src/cli.mjs"
   }
 }
